@@ -1,0 +1,17 @@
+.card img {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #ccc;
+    object-fit: cover;
+    margin: 10px auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.ratings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

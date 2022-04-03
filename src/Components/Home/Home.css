@@ -1,5 +1,6 @@
 .heroArea {
     padding: 50px 0;
+    box-shadow: 3px 0 6px #ccc;
 }
 .img-area img {
     width: 100%;
@@ -20,6 +21,7 @@
     text-transform: uppercase;
     margin-bottom: 20px;
 }
+.review-btn,
 .hero-btn {
     align-self: flex-start;
     border: 1px solid coral;
@@ -37,8 +39,14 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-
+.review-btn {
+    flex: none;
+}
+.review-btn:hover,
 .hero-btn:hover {
     background-color: transparent;
     color: coral;
+}
+.product-reviews {
+    padding: 50px 0;
 }
