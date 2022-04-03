@@ -1,3 +1,6 @@
+.heroArea {
+    padding: 50px 0;
+}
 .img-area img {
     width: 100%;
     object-fit: cover;
@@ -16,4 +19,26 @@
     color: navy;
     text-transform: uppercase;
     margin-bottom: 20px;
+}
+.hero-btn {
+    align-self: flex-start;
+    border: 1px solid coral;
+    background-color: coral;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.hero-btn:hover {
+    background-color: transparent;
+    color: coral;
 }

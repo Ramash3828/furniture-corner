@@ -4,11 +4,11 @@ import heroImage from "../../images/home_indoor.jpg";
 
 const Home = () => {
     return (
-        <div className="heroArea">
+        <main className="heroArea">
             <div className="container ">
                 <div className="row">
-                    <div className="col-md-6">
-                        <div className="text-area">
+                    <div className="col-md-6 order-2 order-md-1">
+                        <div className="text-area pe-md-5">
                             <h2 className="hero-title">
                                 2022 Indoor Collection
                             </h2>
@@ -21,7 +21,7 @@ const Home = () => {
                             <button className="hero-btn">Live Demo</button>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 order-1 order-md-2">
                         <div className="img-area">
                             <img
                                 className="img-fluid"
@@ -32,7 +32,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
     );
 };
 
