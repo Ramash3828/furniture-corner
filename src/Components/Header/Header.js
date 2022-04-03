@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./Header.css";
+import DehazeIcon from "@mui/icons-material/Dehaze";
 
 const Header = () => {
     return (
@@ -11,7 +12,7 @@ const Header = () => {
                         FurnitureCorner
                     </Link>
                     <button
-                        className="navbar-toggler"
+                        className="nav-toggle"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent"
@@ -19,7 +20,9 @@ const Header = () => {
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
-                        <span className="navbar-toggler-icon text-dark"></span>
+                        <span className="navbar-toggler-icon d-md-none">
+                            <DehazeIcon className="text-white"></DehazeIcon>
+                        </span>
                     </button>
                     <div
                         className="collapse navbar-collapse"

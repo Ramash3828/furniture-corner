@@ -1,0 +1,11 @@
+.footer {
+    background-color: navy;
+    padding: 20px 0;
+}
+.address {
+    width: 300px;
+    color: white;
+}
+.address span {
+    margin-left: 10px;
+}

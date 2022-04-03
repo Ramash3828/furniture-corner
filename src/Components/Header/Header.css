@@ -37,3 +37,12 @@
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+.nav-toggle {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.nav-toggle:focus {
+    outline: none !important;
+    border: none;
+}
