@@ -6,9 +6,9 @@ const Header = () => {
     return (
         <header className="myNavbar">
             <nav className="navbar navbar-expand-lg  container">
-                <div className="container-fluid">
-                    <Link className="navbar-brand" to="/">
-                        Navbar
+                <div className="container-fluid ">
+                    <Link className="logo" to="/">
+                        FurnitureCorner
                     </Link>
                     <button
                         className="navbar-toggler"
@@ -25,12 +25,12 @@ const Header = () => {
                         className="collapse navbar-collapse"
                         id="navbarSupportedContent"
                     >
-                        <ul className="navbar-nav  mb-2 mb-lg-0 ms-auto">
+                        <ul className="navbar-nav  mb-2 mb-lg-0 ms-auto myNav">
                             <li>
                                 <NavLink
                                     to="/"
                                     className={({ isActive }) =>
-                                        isActive ? isActive.active : "white"
+                                        isActive ? "active" : "white"
                                     }
                                 >
                                     HOME
@@ -40,7 +40,7 @@ const Header = () => {
                                 <NavLink
                                     to="/reviews"
                                     className={({ isActive }) =>
-                                        isActive ? isActive.active : "white"
+                                        isActive ? "active" : ""
                                     }
                                 >
                                     REVIEWS
@@ -50,7 +50,7 @@ const Header = () => {
                                 <NavLink
                                     to="/dashboard"
                                     className={({ isActive }) =>
-                                        isActive ? isActive.active : "white"
+                                        isActive ? "active" : "white"
                                     }
                                 >
                                     DASHBOARD
@@ -60,7 +60,7 @@ const Header = () => {
                                 <NavLink
                                     to="/blogs"
                                     className={({ isActive }) =>
-                                        isActive ? isActive.active : "white"
+                                        isActive ? "active" : "white"
                                     }
                                 >
                                     BLOGS

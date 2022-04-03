@@ -1,12 +1,16 @@
 .myNavbar {
     background-color: coral;
 }
-.myNavbar ul li {
+.myNav ul {
+    width: 100%;
+}
+/* .myNav ul li {
     display: inline-block;
     margin: 5px;
-}
-.myNavbar a {
+} */
+.myNav a {
     display: inline-block;
+    margin: 5px;
     color: white;
     text-decoration: none;
     padding: 8px 15px;
@@ -16,8 +20,15 @@
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
 }
-a.active,
-a:hover {
+.logo {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.myNav a.active,
+.myNav a:hover {
     background-color: rgb(117, 37, 7);
     color: white !important;
     border-radius: 5px;
