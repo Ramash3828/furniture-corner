@@ -1,12 +1,12 @@
 import React from "react";
-import useReviews from "../../useReviews";
+import useReviews from "../../hooks/useReviews";
 import SingleReview from "../SingleReview/SingleReview";
 import "./Reviews.css";
 const Reviews = () => {
     const [reviews] = useReviews();
     return (
-        <div className="container">
-            <h2 className="mt-3">All Reviews</h2>
+        <main className="container">
+            <h2 className="mt-3">Customer Reviews All</h2>
             <div className="row">
                 {reviews.map((review) => (
                     <SingleReview
@@ -15,7 +15,7 @@ const Reviews = () => {
                     ></SingleReview>
                 ))}
             </div>
-        </div>
+        </main>
     );
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import heroImage from "../../images/home_indoor.jpg";
 import SingleReview from "../SingleReview/SingleReview";
-import useReviews from "../../useReviews";
+import useReviews from "../../hooks/useReviews";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
@@ -42,7 +42,7 @@ const Home = () => {
             </main>
             <div className="product-reviews">
                 <div className="container">
-                    <h2 className="mt-3">Reviews</h2>
+                    <h2 className="mt-3">Customer Reviews</h2>
                     <div className="row">
                         {reviews.slice(3).map((review) => (
                             <SingleReview
@@ -55,7 +55,7 @@ const Home = () => {
                         onClick={() => navigate(`/reviews`)}
                         className="review-btn mt-3"
                     >
-                        Reviews All
+                        See All Reviews
                     </button>
                 </div>
             </div>

@@ -1,6 +1,9 @@
 .heroArea {
     padding: 50px 0;
     box-shadow: 3px 0 6px #ccc;
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
 }
 .img-area img {
     width: 100%;
@@ -15,7 +18,7 @@
     justify-content: center;
 }
 .hero-title {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
     color: navy;
     text-transform: uppercase;
