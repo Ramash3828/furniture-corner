@@ -2,7 +2,13 @@
 
 This project was Live site link: [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Uses Package
+
+-   recharts\
+-   @mui/material\
+-   @mui/icons-material\
+-   @mui/icons-material\
+-   bootstrap\
 
 In the project directory, you can run:
 

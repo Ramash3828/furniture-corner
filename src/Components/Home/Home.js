@@ -25,7 +25,9 @@ const Home = () => {
                                     spaces and embodies an all-encompassing
                                     style.
                                 </p>
-                                <button className="hero-btn">Live Demo</button>
+                                <button className="hero-btn mx-auto ms-md-0">
+                                    Live Demo
+                                </button>
                             </div>
                         </div>
                         <div className="col-md-6 order-1 order-md-2">
