@@ -14,7 +14,7 @@ const Home = () => {
                 <div className="container ">
                     <div className="row">
                         <div className="col-md-6 order-2 order-md-1">
-                            <div className="text-area pe-md-5">
+                            <div className="text-area text-md-start pe-md-5">
                                 <h2 className="hero-title">
                                     2022 Indoor Collection
                                 </h2>
@@ -29,7 +29,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-md-6 order-1 order-md-2">
-                            <div className="img-area">
+                            <div className="img-area ">
                                 <img
                                     className="img-fluid"
                                     src={heroImage}
@@ -40,7 +40,7 @@ const Home = () => {
                     </div>
                 </div>
             </main>
-            <div className="product-reviews">
+            <div className="product-reviews ">
                 <div className="container">
                     <h2 className="mt-3">Customer Reviews</h2>
                     <div className="row">

@@ -1,5 +1,8 @@
 .myNavbar {
     background-color: coral;
+    position: sticky;
+    top: 0;
+    z-index: 99;
 }
 .myNav ul {
     width: 100%;
