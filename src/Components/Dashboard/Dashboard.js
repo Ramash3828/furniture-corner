@@ -28,17 +28,17 @@ const Dashboard = () => {
         <div className="chart-area py-5">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6 mb-4">
                         <h2 className="mb-3">Monthly Investment</h2>
                         <ResponsiveContainer aspect={2} height="100%">
                             <LineChart
-                                width={500}
+                                width={`50%`}
                                 height={400}
                                 data={chartData}
                                 margin={{
                                     top: 5,
-                                    right: 30,
-                                    left: 20,
+                                    right: 50,
+                                    left: 50,
                                     bottom: 5,
                                 }}
                             >
@@ -64,10 +64,20 @@ const Dashboard = () => {
                             </LineChart>
                         </ResponsiveContainer>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 mb-4">
                         <h2 className="mb-3">Monthly Revenue</h2>
                         <ResponsiveContainer aspect={2} height="100%">
-                            <BarChart width={730} height={250} data={chartData}>
+                            <BarChart
+                                width={`50%`}
+                                height={250}
+                                data={chartData}
+                                margin={{
+                                    top: 10,
+                                    right: 30,
+                                    left: 50,
+                                    bottom: 0,
+                                }}
+                            >
                                 <CartesianGrid strokeDasharray="3 3" />
                                 <XAxis dataKey="month" />
                                 <YAxis />
@@ -79,17 +89,17 @@ const Dashboard = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6 mb-4">
                         <h2 className="mb-3">Monthly Revenue and Investment</h2>
                         <ResponsiveContainer aspect={2} height="90%">
                             <AreaChart
-                                width={700}
+                                width={`50%`}
                                 height={250}
                                 data={chartData}
                                 margin={{
                                     top: 10,
-                                    right: 20,
-                                    left: 10,
+                                    right: 30,
+                                    left: 50,
                                     bottom: 0,
                                 }}
                             >
@@ -173,7 +183,7 @@ const Dashboard = () => {
                     <div className="col-md-6">
                         <h2 className="mb-3">Monthly Sells</h2>
                         <ResponsiveContainer aspect={2} height="100%">
-                            <PieChart width={730} height={250}>
+                            <PieChart width={`50%`} height={250}>
                                 <Pie
                                     data={chartData}
                                     dataKey="sell"
