@@ -1,0 +1,8 @@
+.errorImg {
+    max-height: 60vh;
+}
+.errorImg img {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+}
