@@ -4,6 +4,7 @@
     height: calc(100vh - 100px);
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 .img-area img {
     width: 100%;
