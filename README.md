@@ -7,7 +7,6 @@ This project was Live site link: [Furniture Corner Project:](https://furniture-c
 -   recharts\
 -   @mui/material\
 -   @mui/icons-material\
--   @mui/icons-material\
 -   bootstrap\
 
 ## About the projects:
